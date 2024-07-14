@@ -1,0 +1,17 @@
+     .container{
+        background-color: rgb(132, 235, 154);
+        display: flex;
+        justify-content:center ;
+        align-items: flex-end;
+        padding: 75%;
+        gap: 70px;
+     }
+
+.Alunos do curso de programação{
+   background-color: blueviolet ;
+   display: flex;
+   justify-content: right;
+   align-items: normal;
+   padding-left: 50%;
+   gap: 3px; 
+}

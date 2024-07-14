@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulário</h1>
+      <hr />
+    </header>
+    <main>
+      <form action="#">
+        <label for="nome"  >Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required />
+        <br />
+        <br />
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" placeholder="Digite sua senha" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Digite seu email" />
+        <br /><br />
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" placeholder="Digite sua idade" />
+        <br /><br />
+
+        <label for="check">Selecione uma Opção:</label><br />
+
+        <input type="checkbox" name="check1" id="checkbox1" value="1" />
+        <label for="check1">1</label>
+        <input type="checkbox" name="check2" id="checkbox2" value="2" />
+        <label for="check2">2</label>
+        <input type="checkbox" name="check3" id="checkbox3" value="3" />
+        <label for="check3">3</label>
+
+        <br /><br />
+        <label for="rad">Seleciona uma Opção</label>
+        <br />
+
+        <input type="radio" name="rad" />
+        <label for="radio1">Opção 1</label>
+
+        <input type="radio" name="rad" />
+        <label for="radio2">Opção 2</label>
+
+        <input type="radio" name="rad" />
+        <label for="radio3">Opção 3</label>
+        <br /><br />
+        <label for="arquivo">Arquivo</label>
+        <br />
+        <br />
+        <input type="file" name="arquivo" id="arquivo1" />
+        <br /><br />
+
+        <label for="data">Data:</label>
+        <input type="date" name="data" />
+        <label for="hora">Hora:</label>
+        <input type="time" name="hora" />
+        <label for="dataHora">Data / Hora</label>
+        <input type="datetime-local" name="dataHora" />
+        <br />
+        <br />
+        <label for="mes">Mês:</label>
+        <input type="month" name="mes" />
+        <br />
+        <br />
+        <label for="semana">Semana:</label>
+        <input type="week" name="semada" />
+        <br />
+        <br />
+        <label for="cor">blue</label>
+        <input type="color" name="cor" />
+        <br />
+        <br />
+        <label for="sear"> Pesquisar:</label>
+        <input type="search" name="sear" />
+        <br />
+        <br />
+        <button type="submit">enviar</button>
+        <button type="reset">Limpar</button>
+        <button>Botão Simples</button>
+      </form>
+    </main>
+  </body>
+</html>
