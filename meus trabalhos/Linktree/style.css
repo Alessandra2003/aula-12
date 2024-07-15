@@ -1,0 +1,36 @@
+h1{
+	text-align: center;
+}
+div{
+	margin-left: 35%;
+	height: 500px;
+	width: 500px;
+	text-align: center;
+}
+img{
+	border-radius: 40%;
+	image-resolution: 300px 300px;
+
+}
+ul{
+
+}
+li{
+	background-color: purple;
+	list-style: none;
+	align-content: center;
+	margin-top: 30px;
+	height: 90px;
+	border-radius: 50%;
+	font-size: 32px;
+
+
+
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+p{
+	font-size: 24px;
+}
