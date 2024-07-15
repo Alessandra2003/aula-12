@@ -1,0 +1,24 @@
+.bandeiras{
+	width: 50%;
+	height: 720px;
+	border-color: blue;
+	overflow-y:auto;
+	flex:2;
+	border: blue;
+}
+
+.texto{
+	width: 50%;
+	height: 720px;
+	border-color: blue;
+	overflow-y:auto;	
+}
+main{
+	display:flex;
+}
+header{
+	text-align: center;
+}
+*{
+	box-sizing: border-box;
+}
